@@ -47,15 +47,3 @@ def create_tensor(arr, dimension):
 t1 = create_tensor(arr1, tupla_dim)
 t2 = create_tensor(arr2, tupla_dim)
 
-# main
-calculator = Calculator()
-res1 = calculator.all_zeros(2,2)
-res2 = calculator.all_ones(2,2)
-res3 = calculator.all_rand(2,2)
-res4 = calculator.sum_tensors(t1, t2)
-res5 = calculator.mult_tensors(t1, t2)
-print(res1)
-print(res2)
-print(res3)
-print(res4)
-print(res5)
