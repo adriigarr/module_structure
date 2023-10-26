@@ -35,15 +35,18 @@ class Calculator():
         rest = tensor1 - tensor2
         return rest
 
-arr1 = [1,2,3,4]
-arr2 = [2, 4, 6, 8]
-tupla_dim = (2, 2)
+    def division_tensors(self, tensor1, tensor2):
+        division = torch.div(tensor1, tensor2)
+        return division
 
-# funcion para pasar los arrays de datos a tensores, teniendo en cuenta la deseada dimension
-def create_tensor(arr, dimension):
-    a = torch.tensor(arr).view(dimension)
-    return a
+    def suma_columnas(self, tensor1):
+        suma_cols = torch.sum(tensor1, dim=0)
+        return suma_cols
 
-t1 = create_tensor(arr1, tupla_dim)
-t2 = create_tensor(arr2, tupla_dim)
+    def sumar_valor(self, tensor, value):
+        suma_valor = tensor + value
+        return suma_valor
 
+    def restar_valor(self, tensor, value):
+        resta_valor = tensor - value
+        return resta_valor
