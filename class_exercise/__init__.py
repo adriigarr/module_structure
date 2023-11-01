@@ -1,7 +1,7 @@
-from class_exercise.tensor_calculator import Calculator
+from class_exercise import tensor_calculator
 
 
-__all__ = tensor_calculator
+__all__ = tensor_calculator.Calculator
 
 MAJOR = 1
 MINOR = 0
@@ -12,4 +12,4 @@ COMMIT = 12
 
 __version__ = f'{MAJOR}.{MINOR}.{PATCH}.{COMMIT}'
 __author__  = 'Universidad Francisco de Vitoria'
-__name__    = 'module_structure'
+__name__    = 'class_exercise'
