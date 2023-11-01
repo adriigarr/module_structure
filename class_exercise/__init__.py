@@ -1,7 +1,7 @@
-from class_exercise.tensor_calculator import *
+from class_exercise.tensor_calculator import Calculator
 
 
-__all__ = tensor_calculator.__all__
+__all__ = tensor_calculator
 
 MAJOR = 1
 MINOR = 0
