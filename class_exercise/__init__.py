@@ -1,4 +1,4 @@
-from class_exercise import tensor_calculator
+from class_exercise.tensor_calculator import *
 
 
 __all__ = tensor_calculator.Calculator
