@@ -45,3 +45,5 @@ class Calculator():
     def restar_valor(self, tensor, value):
         resta_valor = tensor - value
         return resta_valor
+
+__all__ = ["Calculator"]
