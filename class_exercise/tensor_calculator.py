@@ -1,6 +1,8 @@
 # import modules
 import torch
 
+__all__ = ["Calculator"]
+
 class Calculator():
     # all zeros ensor
     def all_zeros(self, dim_x, dim_y):
