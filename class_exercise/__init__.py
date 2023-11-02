@@ -1,6 +1,5 @@
 from class_exercise.tensor_calculator import *
 
-
 __all__ = tensor_calculator.__all__
 
 MAJOR = 1

@@ -1,8 +1,6 @@
 # import modules
 import torch
 
-__all__ = ["Calculator"]
-
 class Calculator():
     # all zeros ensor
     def all_zeros(self, dim_x, dim_y):
@@ -47,3 +45,5 @@ class Calculator():
     def restar_valor(self, tensor, value):
         resta_valor = tensor - value
         return resta_valor
+
+__all__ = ["Calculator"]
