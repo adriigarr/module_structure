@@ -54,6 +54,10 @@ Before showing an example, here you will find the list of the different function
 ### Example
 Here is an example with jupyter notebook. 
 1. Install the module
+2. ```bash
+   pip install
+   
+   ```
 ![](../../../var/folders/j0/jds78ygj6jn1fjs_9pzdj34c0000gn/T/TemporaryItems/NSIRD_screencaptureui_NNv53u/Screenshot 2023-11-03 at 16.36.18.png)
 2. Import the module
 ![](../Downloads/WhatsApp Image 2023-11-03 at 16.28.06.jpeg)
