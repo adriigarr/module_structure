@@ -9,7 +9,6 @@ from setuptools import setup, find_packages
 from class_exercise import __name__
 
 
-
 NAME = __name__
 
 setup(
