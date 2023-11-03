@@ -1,3 +1,4 @@
+
 # Module Structure
 
 This repository contains projects in order to understand the basics of Machine Learning.
@@ -54,12 +55,26 @@ Before showing an example, here you will find the list of the different function
 ### Example
 Here is an example with jupyter notebook. 
 1. Install the module
-![](../../../var/folders/j0/jds78ygj6jn1fjs_9pzdj34c0000gn/T/TemporaryItems/NSIRD_screencaptureui_NNv53u/Screenshot 2023-11-03 at 16.36.18.png)
+
+```bash
+   pip install -U git+https://github.com/adriigarr/module_structure.git
+   
+   ```
 2. Import the module
-![](../Downloads/WhatsApp Image 2023-11-03 at 16.28.06.jpeg)
+``` bash
+    from class_exercise.tensor_calculator import *
+```
 3. Create new instance for the class
-![](../Downloads/WhatsApp Image 2023-11-03 at 16.28.58.jpeg)
+``` bash
+    a = Calculator()
+```
 4. Create the tensors
-![](../Downloads/WhatsApp Image 2023-11-03 at 16.31.21.jpeg)
+```
+    t1 = ([[2, 4], [4, 8]])
+    t2 = ([[1, 2], [2, 4]])
+```
 5. Execute the function
-![](../Downloads/WhatsApp Image 2023-11-03 at 16.31.50.jpeg)
+```bash
+    a.sum_tensors(t1, t2)
+```
+
