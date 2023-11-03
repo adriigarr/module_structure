@@ -1,3 +1,4 @@
+
 # Module Structure
 
 This repository contains projects in order to understand the basics of Machine Learning.
@@ -54,6 +55,7 @@ Before showing an example, here you will find the list of the different function
 ### Example
 Here is an example with jupyter notebook. 
 1. Install the module
+
 ```bash
    pip install -U git+https://github.com/adriigarr/module_structure.git
    
@@ -75,3 +77,4 @@ Here is an example with jupyter notebook.
 ```bash
     a.sum_tensors(t1, t2)
 ```
+
