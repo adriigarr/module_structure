@@ -8,6 +8,7 @@ The file "class_exercise" contains the first exercise of the course which is a C
 2. How to use the Calculator
 3. Example 
 
+
 ### Tensor Calculator Exercise
 
 In this exercise the main target was to do some operation with two dimensional tensors using Pytorch. 
